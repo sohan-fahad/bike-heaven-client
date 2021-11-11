@@ -1,0 +1,21 @@
+.add-reviews form{
+    width: 80%;
+    margin: auto;
+}
+
+.add-reviews form input, select {
+    display: block;
+    height: 40px;
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #e31e25;
+    padding: 10px;
+}
+.add-reviews textarea {
+    display: block;
+    height: 150px;
+    width: 80%;
+    margin: 10px auto;
+    border: 0.66px solid #e31e25;
+    padding: 10px;
+}

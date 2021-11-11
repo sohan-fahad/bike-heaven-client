@@ -1,0 +1,36 @@
+.make-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 70px auto 20px;
+    height: 200px;
+}
+.make-admin form {
+    width: 90%;
+    height: 100%;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.267);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.make-admin form input {
+    width: 80%;
+    height: 40px;
+    margin: 5px auto;
+    border: none;
+    border-bottom: 0.66px solid #e31e25;
+    padding: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .make-admin {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .make-admin {
+        width: 90%;
+    }
+}

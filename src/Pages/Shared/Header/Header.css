@@ -1,0 +1,23 @@
+.logo {
+    width: 80px;
+}
+.nav-a a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.nav-a a:hover {
+    color: #E31E25;
+}
+
+.global-text {
+    color: #E31E25;
+}
+
+@media screen and (max-width: 500px) {
+    .logo{
+        width: 60px;
+    }
+}

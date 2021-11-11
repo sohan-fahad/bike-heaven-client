@@ -1,0 +1,20 @@
+.add-product {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.add-product form {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+.add-product form input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #e31e25;
+}

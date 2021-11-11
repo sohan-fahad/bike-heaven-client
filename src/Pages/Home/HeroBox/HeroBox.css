@@ -1,0 +1,55 @@
+.hero-box {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.884)), url('../../../images/heroboxBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    display: flex;
+    height: 500px;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #e31e25;
+}
+.hero-content h4 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.global-btn {
+    background-color: #e31e25;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-box {
+        height: 300px;
+    }
+    .hero-content {
+        height: 300px;
+        text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .hero-content h4 {
+        font-size: 20px;
+    }
+}

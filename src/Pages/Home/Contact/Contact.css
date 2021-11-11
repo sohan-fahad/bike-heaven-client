@@ -1,0 +1,14 @@
+.contact form {
+    width: 90%;
+}
+.contact form input, textarea {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e31e35;
+
+}
+form input, textarea:focus {
+    outline: none;
+}
