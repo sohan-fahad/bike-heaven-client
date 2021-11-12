@@ -19,7 +19,7 @@ const Reviews = () => {
     return (
         
         <Container id='review'>
-            <div class="swiper mySwiper my5">
+            <div class="swiper mySwiper my-5">
                 <div class="swiper-wrapper">
                     {
                         reviews.map(pd => <div class="swiper-slide review-slider">
