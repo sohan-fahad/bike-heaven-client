@@ -65,8 +65,8 @@ const Details = () => {
                 <Col className="order-form">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <h3 className='global-text fw-bold mb-4 text-center'>PLACE YOUR ORDER NOW!</h3>
-                        <input {...register("name")} value={user.displayName} required />
-                        <input {...register("email")} type="email" value={user.email} required />
+                        <input {...register("name")} value={user?.displayName} required />
+                        <input {...register("email")} type="email" value={user?.email} required />
                         <input {...register("productName")} ref={nameRef} value={product?.productName} required />
                         <input {...register("number")} type="number" placeholder="Enter Phone number" required />
                         <input {...register("address")} type="text" placeholder="Enter Address" required />

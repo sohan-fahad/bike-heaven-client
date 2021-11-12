@@ -1,0 +1,25 @@
+.not-found {
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.not-found .status-code {
+    font-size: 100px;
+}
+.not-found .status-code {
+    padding: 10px 0;
+    margin: 0;
+}
+.not-found h2 {
+    margin-bottom: 3px;
+}
+.not-found h5 {
+    margin-bottom: 2px;
+    padding: 0;
+}

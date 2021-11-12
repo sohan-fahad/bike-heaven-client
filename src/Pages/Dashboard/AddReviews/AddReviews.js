@@ -3,11 +3,10 @@ import { useForm } from "react-hook-form";
 import { Container } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 import './AddReviews.css'
-import userEvent from '@testing-library/user-event';
 import useAuth from '../../../Hooks/useAuth';
 
 const AddReviews = () => {
-    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const {user, setController, controller} = useAuth()
     const onSubmit = data => {
         fetch('https://secret-ocean-30546.herokuapp.com/reviews', {

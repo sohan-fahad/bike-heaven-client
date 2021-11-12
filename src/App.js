@@ -2,8 +2,6 @@ import { } from 'react-router';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AllProducts from './Pages/AllProducts/AllProducts';
-import AddReviews from './Pages/Dashboard/AddReviews/AddReviews';
-import AddProduct from './Pages/Dashboard/Admin/AddProduct/AddProduct';
 import Home from './Pages/Home/Home/Home';
 import Registration from './Pages/Login/Registration/Registration';
 import Login from './Pages/Login/Login/Login.js'
@@ -13,6 +11,7 @@ import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import Details from './Pages/Details/Details';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -47,6 +46,9 @@ function App() {
           </Route>
           <Route path="/explore">
             <AllProducts></AllProducts>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
