@@ -1,8 +1,8 @@
-# Bike Heave
+# Welcome To BIKE HEAVEN
 
 [Visit our website](https://bike-heaven.web.app/dashboard).
 
-## ABOUT TRAVIGO
+## ABOUT BIKE HEAVEN
 Bike Heaven is an online base bike selling shop. Where people can get their dream bike in very effortable price. 
 
 ## Why Choose Us?
