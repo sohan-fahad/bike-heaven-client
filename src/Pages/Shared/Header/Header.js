@@ -26,10 +26,13 @@ const Header = () => {
                     {
                         user.email && <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
                     }
-                    
+
                     {
                         user.email ? <Nav.Link as={Link} to="/login" onClick={LogOut}>LogOut</Nav.Link> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                     }
+                    <Navbar.Text className="text-light">
+                         {user.displayName}
+                    </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
